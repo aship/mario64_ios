@@ -7,64 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAFD839D2579CC5900768126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD839C2579CC5900768126 /* AppDelegate.swift */; };
-		AAFD839F2579CC5900768126 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFD839E2579CC5900768126 /* art.scnassets */; };
-		AAFD83A12579CC5900768126 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD83A02579CC5900768126 /* GameViewController.swift */; };
-		AAFD83A42579CC5900768126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFD83A22579CC5900768126 /* Main.storyboard */; };
-		AAFD83A62579CC5C00768126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFD83A52579CC5C00768126 /* Assets.xcassets */; };
-		AAFD83B12579CC5D00768126 /* Mario64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD83B02579CC5D00768126 /* Mario64Tests.swift */; };
-		AAFD83BC2579CC5D00768126 /* Mario64UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD83BB2579CC5D00768126 /* Mario64UITests.swift */; };
+		AA709CD0257A61E800F573FE /* GameObjectFollowCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709CCF257A61E800F573FE /* GameObjectFollowCamera.swift */; };
+		AA7DFCCB2579D40F001941C0 /* Mario64App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFCCA2579D40F001941C0 /* Mario64App.swift */; };
+		AA7DFCCF2579D410001941C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7DFCCE2579D410001941C0 /* Assets.xcassets */; };
+		AA7DFCD22579D410001941C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7DFCD12579D410001941C0 /* Preview Assets.xcassets */; };
+		AA7DFCDD2579D410001941C0 /* Mario64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFCDC2579D410001941C0 /* Mario64Tests.swift */; };
+		AA7DFCE82579D410001941C0 /* Mario64UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFCE72579D410001941C0 /* Mario64UITests.swift */; };
+		AA7DFD052579D4CD001941C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD042579D4CD001941C0 /* ContentView.swift */; };
+		AA7DFD0F2579D4F8001941C0 /* GameObjectButtonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD0B2579D4F7001941C0 /* GameObjectButtonOverlay.swift */; };
+		AA7DFD102579D4F8001941C0 /* GameObjectPadOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD0C2579D4F7001941C0 /* GameObjectPadOverlay.swift */; };
+		AA7DFD112579D4F8001941C0 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD0D2579D4F7001941C0 /* GameObject.swift */; };
+		AA7DFD122579D4F8001941C0 /* GameObjectRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD0E2579D4F8001941C0 /* GameObjectRenderer.swift */; };
+		AA7DFD1C2579D500001941C0 /* CharacterPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD162579D500001941C0 /* CharacterPhysics.swift */; };
+		AA7DFD1D2579D500001941C0 /* CharacterAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD172579D500001941C0 /* CharacterAnimation.swift */; };
+		AA7DFD1E2579D500001941C0 /* CharacterAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD182579D500001941C0 /* CharacterAnimations.swift */; };
+		AA7DFD1F2579D500001941C0 /* CharacterUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD192579D500001941C0 /* CharacterUpdate.swift */; };
+		AA7DFD202579D500001941C0 /* CharacterDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD1A2579D500001941C0 /* CharacterDirection.swift */; };
+		AA7DFD212579D500001941C0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD1B2579D500001941C0 /* Character.swift */; };
+		AA7DFD2C2579D510001941C0 /* GameSceneCupsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD282579D510001941C0 /* GameSceneCupsule.swift */; };
+		AA7DFD2D2579D510001941C0 /* GameSceneCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD292579D510001941C0 /* GameSceneCamera.swift */; };
+		AA7DFD2E2579D510001941C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD2A2579D510001941C0 /* GameScene.swift */; };
+		AA7DFD2F2579D510001941C0 /* GameSceneFox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD2B2579D510001941C0 /* GameSceneFox.swift */; };
+		AA7DFD342579D519001941C0 /* OverlaySKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD332579D519001941C0 /* OverlaySKScene.swift */; };
+		AA7DFD3B2579D52D001941C0 /* ButtonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD392579D52D001941C0 /* ButtonOverlay.swift */; };
+		AA7DFD3C2579D52D001941C0 /* PadOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD3A2579D52D001941C0 /* PadOverlay.swift */; };
+		AA7DFD412579D53A001941C0 /* SimdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFD402579D53A001941C0 /* SimdExtensions.swift */; };
+		AA7DFD492579D56A001941C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7DFD482579D56A001941C0 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAFD83AD2579CC5D00768126 /* PBXContainerItemProxy */ = {
+		AA7DFCD92579D410001941C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AAFD83912579CC5900768126 /* Project object */;
+			containerPortal = AA7DFCBF2579D40F001941C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAFD83982579CC5900768126;
+			remoteGlobalIDString = AA7DFCC62579D40F001941C0;
 			remoteInfo = Mario64;
 		};
-		AAFD83B82579CC5D00768126 /* PBXContainerItemProxy */ = {
+		AA7DFCE42579D410001941C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AAFD83912579CC5900768126 /* Project object */;
+			containerPortal = AA7DFCBF2579D40F001941C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAFD83982579CC5900768126;
+			remoteGlobalIDString = AA7DFCC62579D40F001941C0;
 			remoteInfo = Mario64;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAFD83992579CC5900768126 /* Mario64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario64.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFD839C2579CC5900768126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAFD839E2579CC5900768126 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		AAFD83A02579CC5900768126 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AAFD83A32579CC5900768126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAFD83A52579CC5C00768126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AAFD83A72579CC5C00768126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAFD83AC2579CC5D00768126 /* Mario64Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mario64Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFD83B02579CC5D00768126 /* Mario64Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64Tests.swift; sourceTree = "<group>"; };
-		AAFD83B22579CC5D00768126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAFD83B72579CC5D00768126 /* Mario64UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mario64UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFD83BB2579CC5D00768126 /* Mario64UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64UITests.swift; sourceTree = "<group>"; };
-		AAFD83BD2579CC5D00768126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA709CCF257A61E800F573FE /* GameObjectFollowCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectFollowCamera.swift; sourceTree = "<group>"; };
+		AA7DFCC72579D40F001941C0 /* Mario64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7DFCCA2579D40F001941C0 /* Mario64App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64App.swift; sourceTree = "<group>"; };
+		AA7DFCCE2579D410001941C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7DFCD12579D410001941C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA7DFCD32579D410001941C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7DFCD82579D410001941C0 /* Mario64Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mario64Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7DFCDC2579D410001941C0 /* Mario64Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64Tests.swift; sourceTree = "<group>"; };
+		AA7DFCDE2579D410001941C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7DFCE32579D410001941C0 /* Mario64UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mario64UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7DFCE72579D410001941C0 /* Mario64UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64UITests.swift; sourceTree = "<group>"; };
+		AA7DFCE92579D410001941C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7DFD042579D4CD001941C0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA7DFD0B2579D4F7001941C0 /* GameObjectButtonOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectButtonOverlay.swift; sourceTree = "<group>"; };
+		AA7DFD0C2579D4F7001941C0 /* GameObjectPadOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectPadOverlay.swift; sourceTree = "<group>"; };
+		AA7DFD0D2579D4F7001941C0 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		AA7DFD0E2579D4F8001941C0 /* GameObjectRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectRenderer.swift; sourceTree = "<group>"; };
+		AA7DFD162579D500001941C0 /* CharacterPhysics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterPhysics.swift; sourceTree = "<group>"; };
+		AA7DFD172579D500001941C0 /* CharacterAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterAnimation.swift; sourceTree = "<group>"; };
+		AA7DFD182579D500001941C0 /* CharacterAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterAnimations.swift; sourceTree = "<group>"; };
+		AA7DFD192579D500001941C0 /* CharacterUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterUpdate.swift; sourceTree = "<group>"; };
+		AA7DFD1A2579D500001941C0 /* CharacterDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDirection.swift; sourceTree = "<group>"; };
+		AA7DFD1B2579D500001941C0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		AA7DFD282579D510001941C0 /* GameSceneCupsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneCupsule.swift; sourceTree = "<group>"; };
+		AA7DFD292579D510001941C0 /* GameSceneCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneCamera.swift; sourceTree = "<group>"; };
+		AA7DFD2A2579D510001941C0 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA7DFD2B2579D510001941C0 /* GameSceneFox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneFox.swift; sourceTree = "<group>"; };
+		AA7DFD332579D519001941C0 /* OverlaySKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlaySKScene.swift; sourceTree = "<group>"; };
+		AA7DFD392579D52D001941C0 /* ButtonOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonOverlay.swift; sourceTree = "<group>"; };
+		AA7DFD3A2579D52D001941C0 /* PadOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PadOverlay.swift; sourceTree = "<group>"; };
+		AA7DFD402579D53A001941C0 /* SimdExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimdExtensions.swift; sourceTree = "<group>"; };
+		AA7DFD482579D56A001941C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AAFD83962579CC5900768126 /* Frameworks */ = {
+		AA7DFCC42579D40F001941C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83A92579CC5D00768126 /* Frameworks */ = {
+		AA7DFCD52579D410001941C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83B42579CC5D00768126 /* Frameworks */ = {
+		AA7DFCE02579D410001941C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +112,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAFD83902579CC5900768126 = {
+		AA7DFCBE2579D40F001941C0 = {
 			isa = PBXGroup;
 			children = (
-				AAFD839B2579CC5900768126 /* Mario64 */,
-				AAFD83AF2579CC5D00768126 /* Mario64Tests */,
-				AAFD83BA2579CC5D00768126 /* Mario64UITests */,
-				AAFD839A2579CC5900768126 /* Products */,
+				AA7DFCC92579D40F001941C0 /* Mario64 */,
+				AA7DFCDB2579D410001941C0 /* Mario64Tests */,
+				AA7DFCE62579D410001941C0 /* Mario64UITests */,
+				AA7DFCC82579D40F001941C0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AAFD839A2579CC5900768126 /* Products */ = {
+		AA7DFCC82579D40F001941C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAFD83992579CC5900768126 /* Mario64.app */,
-				AAFD83AC2579CC5D00768126 /* Mario64Tests.xctest */,
-				AAFD83B72579CC5D00768126 /* Mario64UITests.xctest */,
+				AA7DFCC72579D40F001941C0 /* Mario64.app */,
+				AA7DFCD82579D410001941C0 /* Mario64Tests.xctest */,
+				AA7DFCE32579D410001941C0 /* Mario64UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAFD839B2579CC5900768126 /* Mario64 */ = {
+		AA7DFCC92579D40F001941C0 /* Mario64 */ = {
 			isa = PBXGroup;
 			children = (
-				AAFD839C2579CC5900768126 /* AppDelegate.swift */,
-				AAFD839E2579CC5900768126 /* art.scnassets */,
-				AAFD83A02579CC5900768126 /* GameViewController.swift */,
-				AAFD83A22579CC5900768126 /* Main.storyboard */,
-				AAFD83A52579CC5C00768126 /* Assets.xcassets */,
-				AAFD83A72579CC5C00768126 /* Info.plist */,
+				AA7DFCFC2579D48B001941C0 /* App */,
+				AA7DFD032579D4A8001941C0 /* Views */,
+				AA7DFD002579D493001941C0 /* Objects */,
+				AA7DFD012579D499001941C0 /* SCNScenes */,
+				AA7DFD022579D49F001941C0 /* SKScenes */,
+				AA7DFCFB2579D476001941C0 /* Extensions */,
+				AA7DFCCE2579D410001941C0 /* Assets.xcassets */,
+				AA7DFD482579D56A001941C0 /* art.scnassets */,
+				AA7DFCD32579D410001941C0 /* Info.plist */,
+				AA7DFCD02579D410001941C0 /* Preview Content */,
 			);
 			path = Mario64;
 			sourceTree = "<group>";
 		};
-		AAFD83AF2579CC5D00768126 /* Mario64Tests */ = {
+		AA7DFCD02579D410001941C0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AAFD83B02579CC5D00768126 /* Mario64Tests.swift */,
-				AAFD83B22579CC5D00768126 /* Info.plist */,
+				AA7DFCD12579D410001941C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA7DFCDB2579D410001941C0 /* Mario64Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFCDC2579D410001941C0 /* Mario64Tests.swift */,
+				AA7DFCDE2579D410001941C0 /* Info.plist */,
 			);
 			path = Mario64Tests;
 			sourceTree = "<group>";
 		};
-		AAFD83BA2579CC5D00768126 /* Mario64UITests */ = {
+		AA7DFCE62579D410001941C0 /* Mario64UITests */ = {
 			isa = PBXGroup;
 			children = (
-				AAFD83BB2579CC5D00768126 /* Mario64UITests.swift */,
-				AAFD83BD2579CC5D00768126 /* Info.plist */,
+				AA7DFCE72579D410001941C0 /* Mario64UITests.swift */,
+				AA7DFCE92579D410001941C0 /* Info.plist */,
 			);
 			path = Mario64UITests;
+			sourceTree = "<group>";
+		};
+		AA7DFCFB2579D476001941C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD402579D53A001941C0 /* SimdExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA7DFCFC2579D48B001941C0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFCCA2579D40F001941C0 /* Mario64App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA7DFD002579D493001941C0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD0A2579D4ED001941C0 /* GameObject */,
+				AA7DFD092579D4E3001941C0 /* Character */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		AA7DFD012579D499001941C0 /* SCNScenes */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD2A2579D510001941C0 /* GameScene.swift */,
+				AA7DFD292579D510001941C0 /* GameSceneCamera.swift */,
+				AA7DFD282579D510001941C0 /* GameSceneCupsule.swift */,
+				AA7DFD2B2579D510001941C0 /* GameSceneFox.swift */,
+			);
+			path = SCNScenes;
+			sourceTree = "<group>";
+		};
+		AA7DFD022579D49F001941C0 /* SKScenes */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD332579D519001941C0 /* OverlaySKScene.swift */,
+				AA7DFD382579D520001941C0 /* SKNodes */,
+			);
+			path = SKScenes;
+			sourceTree = "<group>";
+		};
+		AA7DFD032579D4A8001941C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD042579D4CD001941C0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA7DFD092579D4E3001941C0 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD1B2579D500001941C0 /* Character.swift */,
+				AA7DFD172579D500001941C0 /* CharacterAnimation.swift */,
+				AA7DFD182579D500001941C0 /* CharacterAnimations.swift */,
+				AA7DFD1A2579D500001941C0 /* CharacterDirection.swift */,
+				AA7DFD162579D500001941C0 /* CharacterPhysics.swift */,
+				AA7DFD192579D500001941C0 /* CharacterUpdate.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		AA7DFD0A2579D4ED001941C0 /* GameObject */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD0D2579D4F7001941C0 /* GameObject.swift */,
+				AA7DFD0B2579D4F7001941C0 /* GameObjectButtonOverlay.swift */,
+				AA7DFD0C2579D4F7001941C0 /* GameObjectPadOverlay.swift */,
+				AA7DFD0E2579D4F8001941C0 /* GameObjectRenderer.swift */,
+				AA709CCF257A61E800F573FE /* GameObjectFollowCamera.swift */,
+			);
+			path = GameObject;
+			sourceTree = "<group>";
+		};
+		AA7DFD382579D520001941C0 /* SKNodes */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DFD392579D52D001941C0 /* ButtonOverlay.swift */,
+				AA7DFD3A2579D52D001941C0 /* PadOverlay.swift */,
+			);
+			path = SKNodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAFD83982579CC5900768126 /* Mario64 */ = {
+		AA7DFCC62579D40F001941C0 /* Mario64 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAFD83C02579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64" */;
+			buildConfigurationList = AA7DFCEC2579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64" */;
 			buildPhases = (
-				AAFD83952579CC5900768126 /* Sources */,
-				AAFD83962579CC5900768126 /* Frameworks */,
-				AAFD83972579CC5900768126 /* Resources */,
+				AA7DFCC32579D40F001941C0 /* Sources */,
+				AA7DFCC42579D40F001941C0 /* Frameworks */,
+				AA7DFCC52579D40F001941C0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,68 +279,68 @@
 			);
 			name = Mario64;
 			productName = Mario64;
-			productReference = AAFD83992579CC5900768126 /* Mario64.app */;
+			productReference = AA7DFCC72579D40F001941C0 /* Mario64.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AAFD83AB2579CC5D00768126 /* Mario64Tests */ = {
+		AA7DFCD72579D410001941C0 /* Mario64Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAFD83C32579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64Tests" */;
+			buildConfigurationList = AA7DFCEF2579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64Tests" */;
 			buildPhases = (
-				AAFD83A82579CC5D00768126 /* Sources */,
-				AAFD83A92579CC5D00768126 /* Frameworks */,
-				AAFD83AA2579CC5D00768126 /* Resources */,
+				AA7DFCD42579D410001941C0 /* Sources */,
+				AA7DFCD52579D410001941C0 /* Frameworks */,
+				AA7DFCD62579D410001941C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAFD83AE2579CC5D00768126 /* PBXTargetDependency */,
+				AA7DFCDA2579D410001941C0 /* PBXTargetDependency */,
 			);
 			name = Mario64Tests;
 			productName = Mario64Tests;
-			productReference = AAFD83AC2579CC5D00768126 /* Mario64Tests.xctest */;
+			productReference = AA7DFCD82579D410001941C0 /* Mario64Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AAFD83B62579CC5D00768126 /* Mario64UITests */ = {
+		AA7DFCE22579D410001941C0 /* Mario64UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAFD83C62579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64UITests" */;
+			buildConfigurationList = AA7DFCF22579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64UITests" */;
 			buildPhases = (
-				AAFD83B32579CC5D00768126 /* Sources */,
-				AAFD83B42579CC5D00768126 /* Frameworks */,
-				AAFD83B52579CC5D00768126 /* Resources */,
+				AA7DFCDF2579D410001941C0 /* Sources */,
+				AA7DFCE02579D410001941C0 /* Frameworks */,
+				AA7DFCE12579D410001941C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAFD83B92579CC5D00768126 /* PBXTargetDependency */,
+				AA7DFCE52579D410001941C0 /* PBXTargetDependency */,
 			);
 			name = Mario64UITests;
 			productName = Mario64UITests;
-			productReference = AAFD83B72579CC5D00768126 /* Mario64UITests.xctest */;
+			productReference = AA7DFCE32579D410001941C0 /* Mario64UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AAFD83912579CC5900768126 /* Project object */ = {
+		AA7DFCBF2579D40F001941C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					AAFD83982579CC5900768126 = {
+					AA7DFCC62579D40F001941C0 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					AAFD83AB2579CC5D00768126 = {
+					AA7DFCD72579D410001941C0 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = AAFD83982579CC5900768126;
+						TestTargetID = AA7DFCC62579D40F001941C0;
 					};
-					AAFD83B62579CC5D00768126 = {
+					AA7DFCE22579D410001941C0 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = AAFD83982579CC5900768126;
+						TestTargetID = AA7DFCC62579D40F001941C0;
 					};
 				};
 			};
-			buildConfigurationList = AAFD83942579CC5900768126 /* Build configuration list for PBXProject "Mario64" */;
+			buildConfigurationList = AA7DFCC22579D40F001941C0 /* Build configuration list for PBXProject "Mario64" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,37 +348,37 @@
 				en,
 				Base,
 			);
-			mainGroup = AAFD83902579CC5900768126;
-			productRefGroup = AAFD839A2579CC5900768126 /* Products */;
+			mainGroup = AA7DFCBE2579D40F001941C0;
+			productRefGroup = AA7DFCC82579D40F001941C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAFD83982579CC5900768126 /* Mario64 */,
-				AAFD83AB2579CC5D00768126 /* Mario64Tests */,
-				AAFD83B62579CC5D00768126 /* Mario64UITests */,
+				AA7DFCC62579D40F001941C0 /* Mario64 */,
+				AA7DFCD72579D410001941C0 /* Mario64Tests */,
+				AA7DFCE22579D410001941C0 /* Mario64UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AAFD83972579CC5900768126 /* Resources */ = {
+		AA7DFCC52579D40F001941C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFD839F2579CC5900768126 /* art.scnassets in Resources */,
-				AAFD83A62579CC5C00768126 /* Assets.xcassets in Resources */,
-				AAFD83A42579CC5900768126 /* Main.storyboard in Resources */,
+				AA7DFCD22579D410001941C0 /* Preview Assets.xcassets in Resources */,
+				AA7DFD492579D56A001941C0 /* art.scnassets in Resources */,
+				AA7DFCCF2579D410001941C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83AA2579CC5D00768126 /* Resources */ = {
+		AA7DFCD62579D410001941C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83B52579CC5D00768126 /* Resources */ = {
+		AA7DFCE12579D410001941C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,59 +388,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AAFD83952579CC5900768126 /* Sources */ = {
+		AA7DFCC32579D40F001941C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFD83A12579CC5900768126 /* GameViewController.swift in Sources */,
-				AAFD839D2579CC5900768126 /* AppDelegate.swift in Sources */,
+				AA7DFD2F2579D510001941C0 /* GameSceneFox.swift in Sources */,
+				AA7DFD3B2579D52D001941C0 /* ButtonOverlay.swift in Sources */,
+				AA709CD0257A61E800F573FE /* GameObjectFollowCamera.swift in Sources */,
+				AA7DFD212579D500001941C0 /* Character.swift in Sources */,
+				AA7DFD2E2579D510001941C0 /* GameScene.swift in Sources */,
+				AA7DFD202579D500001941C0 /* CharacterDirection.swift in Sources */,
+				AA7DFD1C2579D500001941C0 /* CharacterPhysics.swift in Sources */,
+				AA7DFD1E2579D500001941C0 /* CharacterAnimations.swift in Sources */,
+				AA7DFCCB2579D40F001941C0 /* Mario64App.swift in Sources */,
+				AA7DFD122579D4F8001941C0 /* GameObjectRenderer.swift in Sources */,
+				AA7DFD3C2579D52D001941C0 /* PadOverlay.swift in Sources */,
+				AA7DFD112579D4F8001941C0 /* GameObject.swift in Sources */,
+				AA7DFD2D2579D510001941C0 /* GameSceneCamera.swift in Sources */,
+				AA7DFD342579D519001941C0 /* OverlaySKScene.swift in Sources */,
+				AA7DFD1F2579D500001941C0 /* CharacterUpdate.swift in Sources */,
+				AA7DFD1D2579D500001941C0 /* CharacterAnimation.swift in Sources */,
+				AA7DFD052579D4CD001941C0 /* ContentView.swift in Sources */,
+				AA7DFD102579D4F8001941C0 /* GameObjectPadOverlay.swift in Sources */,
+				AA7DFD412579D53A001941C0 /* SimdExtensions.swift in Sources */,
+				AA7DFD2C2579D510001941C0 /* GameSceneCupsule.swift in Sources */,
+				AA7DFD0F2579D4F8001941C0 /* GameObjectButtonOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83A82579CC5D00768126 /* Sources */ = {
+		AA7DFCD42579D410001941C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFD83B12579CC5D00768126 /* Mario64Tests.swift in Sources */,
+				AA7DFCDD2579D410001941C0 /* Mario64Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD83B32579CC5D00768126 /* Sources */ = {
+		AA7DFCDF2579D410001941C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFD83BC2579CC5D00768126 /* Mario64UITests.swift in Sources */,
+				AA7DFCE82579D410001941C0 /* Mario64UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AAFD83AE2579CC5D00768126 /* PBXTargetDependency */ = {
+		AA7DFCDA2579D410001941C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAFD83982579CC5900768126 /* Mario64 */;
-			targetProxy = AAFD83AD2579CC5D00768126 /* PBXContainerItemProxy */;
+			target = AA7DFCC62579D40F001941C0 /* Mario64 */;
+			targetProxy = AA7DFCD92579D410001941C0 /* PBXContainerItemProxy */;
 		};
-		AAFD83B92579CC5D00768126 /* PBXTargetDependency */ = {
+		AA7DFCE52579D410001941C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAFD83982579CC5900768126 /* Mario64 */;
-			targetProxy = AAFD83B82579CC5D00768126 /* PBXContainerItemProxy */;
+			target = AA7DFCC62579D40F001941C0 /* Mario64 */;
+			targetProxy = AA7DFCE42579D410001941C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		AAFD83A22579CC5900768126 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAFD83A32579CC5900768126 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		AAFD83BE2579CC5D00768126 /* Debug */ = {
+		AA7DFCEA2579D410001941C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +509,7 @@
 			};
 			name = Debug;
 		};
-		AAFD83BF2579CC5D00768126 /* Release */ = {
+		AA7DFCEB2579D410001941C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,13 +564,16 @@
 			};
 			name = Release;
 		};
-		AAFD83C12579CC5D00768126 /* Debug */ = {
+		AA7DFCED2579D410001941C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mario64/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mario64/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,13 +585,16 @@
 			};
 			name = Debug;
 		};
-		AAFD83C22579CC5D00768126 /* Release */ = {
+		AA7DFCEE2579D410001941C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mario64/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mario64/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,14 +606,14 @@
 			};
 			name = Release;
 		};
-		AAFD83C42579CC5D00768126 /* Debug */ = {
+		AA7DFCF02579D410001941C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mario64Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,14 +627,14 @@
 			};
 			name = Debug;
 		};
-		AAFD83C52579CC5D00768126 /* Release */ = {
+		AA7DFCF12579D410001941C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mario64Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +648,7 @@
 			};
 			name = Release;
 		};
-		AAFD83C72579CC5D00768126 /* Debug */ = {
+		AA7DFCF32579D410001941C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,7 +667,7 @@
 			};
 			name = Debug;
 		};
-		AAFD83C82579CC5D00768126 /* Release */ = {
+		AA7DFCF42579D410001941C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,43 +689,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAFD83942579CC5900768126 /* Build configuration list for PBXProject "Mario64" */ = {
+		AA7DFCC22579D40F001941C0 /* Build configuration list for PBXProject "Mario64" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAFD83BE2579CC5D00768126 /* Debug */,
-				AAFD83BF2579CC5D00768126 /* Release */,
+				AA7DFCEA2579D410001941C0 /* Debug */,
+				AA7DFCEB2579D410001941C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAFD83C02579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64" */ = {
+		AA7DFCEC2579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAFD83C12579CC5D00768126 /* Debug */,
-				AAFD83C22579CC5D00768126 /* Release */,
+				AA7DFCED2579D410001941C0 /* Debug */,
+				AA7DFCEE2579D410001941C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAFD83C32579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64Tests" */ = {
+		AA7DFCEF2579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAFD83C42579CC5D00768126 /* Debug */,
-				AAFD83C52579CC5D00768126 /* Release */,
+				AA7DFCF02579D410001941C0 /* Debug */,
+				AA7DFCF12579D410001941C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAFD83C62579CC5D00768126 /* Build configuration list for PBXNativeTarget "Mario64UITests" */ = {
+		AA7DFCF22579D410001941C0 /* Build configuration list for PBXNativeTarget "Mario64UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAFD83C72579CC5D00768126 /* Debug */,
-				AAFD83C82579CC5D00768126 /* Release */,
+				AA7DFCF32579D410001941C0 /* Debug */,
+				AA7DFCF42579D410001941C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AAFD83912579CC5900768126 /* Project object */;
+	rootObject = AA7DFCBF2579D40F001941C0 /* Project object */;
 }
