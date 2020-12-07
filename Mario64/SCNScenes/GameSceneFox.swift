@@ -10,9 +10,9 @@ import SceneKit
 extension GameScene {
     func addFox() {
         
-        self.gameObject.character.characterNode.scale = SCNVector3(x: 10.0,
-                                                                   y: 10.0,
-                                                                   z: 10.0)
+        self.gameObject.character.characterNode.scale = SCNVector3(x: 1.0,
+                                                                   y: 1.0,
+                                                                   z: 1.0)
         
         self.gameObject.character.characterNode.simdPosition = self.initialPosition
         

@@ -23,17 +23,17 @@ class GameScene: SCNScene {
         self.background.contents = UIColor.black
         
         // addIsland()
-        addFloor()
-        
+     //   addFloor()
+        addField()
         addFox()
         
-        addCube()
+      //  addCube()
         
         addCamera()
         
         //  addCupsule()
         
-        //   addLight()
+        addLight()
         
     }
     
@@ -69,32 +69,13 @@ class GameScene: SCNScene {
     func addLight() {
         let omniLight = SCNNode()
         omniLight.light = SCNLight()
-        omniLight.light?.type = .omni
+    //    omniLight.light?.type = .omni
+        omniLight.light?.type = .ambient
         omniLight.position = SCNVector3(10,
                                         10,
                                         50)
         self.rootNode.addChildNode(omniLight)
     }
     
-    func addFloor() {
-        let floorGeo = SCNFloor()
-        let floorNode = SCNNode(geometry: floorGeo)
-        floorGeo.firstMaterial?.diffuse.contents = UIColor.green
-        //   floorNode.position.y = -1
-        floorNode.physicsBody = SCNPhysicsBody(type: .static,
-                                               shape: nil)
-        self.rootNode.addChildNode(floorNode)
-    }
-    
-    //    required init?(coder: NSCoder) {
-    //        fatalError("init(coder:) has not been implemented")
-    //    }
-    
-    func addIsland() {
-        let scene = SCNScene(named: "art.scnassets/scene.scn")!
-        
-        let childNode = scene.rootNode.childNodes[0]
-        
-        self.rootNode.addChildNode(childNode)
-    }
+
 }

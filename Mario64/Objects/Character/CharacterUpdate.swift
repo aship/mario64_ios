@@ -139,7 +139,7 @@ extension Character {
         if jumpState == 1 {
             let simdWorldPosition = characterNode!.presentation.simdWorldPosition
             
-            var diffY: Float = 0.5
+            var diffY: Float = 1 / 4
             
             let posX = simdWorldPosition.x
             let posY = simdWorldPosition.y + diffY
@@ -155,9 +155,9 @@ extension Character {
             
             //   var diffY: Float = 0.5
             
-            let posX = simdWorldPosition.x + direction.x / 2
-            let posY = simdWorldPosition.y + direction.y / 2
-            let posZ = simdWorldPosition.z + direction.z / 2
+            let posX = simdWorldPosition.x + direction.x / 32
+            let posY = simdWorldPosition.y + direction.y / 32
+            let posZ = simdWorldPosition.z + direction.z / 32
             
             characterNode!.simdWorldPosition = SIMD3<Float>(posX,
                                                             posY,

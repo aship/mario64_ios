@@ -16,6 +16,8 @@ class OverlaySKScene: SKScene {
     var buttonB = ButtonOverlay("B")
     
     override func didMove(to view: SKView) {
+        self.view?.isMultipleTouchEnabled = true
+
         self.leftPad.delegate = self.gameObject
         self.rightPad.delegate = self.gameObject
         self.buttonA.delegate = self.gameObject

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA22324C257B8DD400843D8B /* GameSceneField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22324B257B8DD400843D8B /* GameSceneField.swift */; };
 		AA709CD0257A61E800F573FE /* GameObjectFollowCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709CCF257A61E800F573FE /* GameObjectFollowCamera.swift */; };
 		AA7DFCCB2579D40F001941C0 /* Mario64App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DFCCA2579D40F001941C0 /* Mario64App.swift */; };
 		AA7DFCCF2579D410001941C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7DFCCE2579D410001941C0 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA22324B257B8DD400843D8B /* GameSceneField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneField.swift; sourceTree = "<group>"; };
 		AA709CCF257A61E800F573FE /* GameObjectFollowCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectFollowCamera.swift; sourceTree = "<group>"; };
 		AA7DFCC72579D40F001941C0 /* Mario64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario64.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7DFCCA2579D40F001941C0 /* Mario64App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario64App.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7DFD2A2579D510001941C0 /* GameScene.swift */,
+				AA22324B257B8DD400843D8B /* GameSceneField.swift */,
 				AA7DFD292579D510001941C0 /* GameSceneCamera.swift */,
 				AA7DFD282579D510001941C0 /* GameSceneCupsule.swift */,
 				AA7DFD2B2579D510001941C0 /* GameSceneFox.swift */,
@@ -407,6 +410,7 @@
 				AA7DFD2D2579D510001941C0 /* GameSceneCamera.swift in Sources */,
 				AA7DFD342579D519001941C0 /* OverlaySKScene.swift in Sources */,
 				AA7DFD1F2579D500001941C0 /* CharacterUpdate.swift in Sources */,
+				AA22324C257B8DD400843D8B /* GameSceneField.swift in Sources */,
 				AA7DFD1D2579D500001941C0 /* CharacterAnimation.swift in Sources */,
 				AA7DFD052579D4CD001941C0 /* ContentView.swift in Sources */,
 				AA7DFD102579D4F8001941C0 /* GameObjectPadOverlay.swift in Sources */,
@@ -571,6 +575,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mario64/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mario64/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -592,6 +597,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mario64/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mario64/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
